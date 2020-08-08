@@ -1,0 +1,29 @@
+
+.header{
+    display:flex;
+    justify-content: space-between;
+}
+
+.logo{
+    text-align: center;
+
+    margin-top: 100px;
+    
+}
+.search-field{
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+#search-bar{
+    width: 500px;
+    height: 30px;
+    border-radius: 15px;
+    
+    
+}
+.buttons{
+    display: flex;
+    padding-top: 15px;
+    justify-content: center;
+}
