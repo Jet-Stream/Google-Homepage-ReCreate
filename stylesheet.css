@@ -1,44 +1,30 @@
 
 ul{
-   
     list-style-type: none;
     margin: 0;
     padding: 0;
+    vertical-align: middle;
+    line-height: 30px;
 }
 li {
-    display: inline;
+    display: inline-block;
     padding: 8px;
     
 }
-#right-side{
+.right-side{
+    display: inline-block;
     float: right;
     padding: 8px;
-    vertical-align: middle;
 }
-
-
-
 
 #profpic{
     border-radius:50%;
-  
+    vertical-align: baseline;
 }
-
-.bottom-nav{
-    display:flex;
-    justify-content: space-between;
-    margin-top: 600px;
-    background-color: #eeeeee;
-}
-
-
 
 .logo{
     text-align: center;
     margin-top:100px;
-
-    
-    
 }
 .search-field{
     padding-top: 20px;
@@ -48,12 +34,22 @@ li {
 #search-bar{
     width: 500px;
     height: 30px;
-    border-radius: 15px;
-    
-    
+    border-radius: 15px;   
 }
 .buttons{
     display: flex;
     padding-top: 15px;
     justify-content: center;
+}
+.bottom-nav{
+    padding: 8px;
+     background-color: #eeeeee;
+     line-height: 30px;
+     
+ }
+#footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
 }
